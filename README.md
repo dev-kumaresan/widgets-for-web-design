@@ -1,2 +1,1 @@
-# widgets-for-web
-widgets
+# widgets-for-web-design
