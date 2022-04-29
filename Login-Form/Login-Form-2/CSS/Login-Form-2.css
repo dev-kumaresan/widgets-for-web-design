@@ -14,7 +14,7 @@ body{
     left:50%;
     transform: translate(-50%,-50%);
     width:400px;
-    background: #000;
+    background: rgb(39, 38, 38);
     border-radius: 10px;
 }
 .center h1{
@@ -105,4 +105,12 @@ input[type="submit"]:hover{
 }
 .signup_link a:hover{
     text-decoration: underline;
+}
+input[value="Login"]{
+    color: #000;
+}
+input[type="text"]
+{
+    color:silver;
+    
 }
