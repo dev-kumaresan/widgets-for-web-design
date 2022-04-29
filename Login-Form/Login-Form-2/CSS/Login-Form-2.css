@@ -112,5 +112,8 @@ input[value="Login"]{
 input[type="text"]
 {
     color:silver;
-    
+}
+input[type="password"]
+{
+    color:silver;
 }
