@@ -1,1 +1,29 @@
 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url('../img/bg.jpg') no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+    color:#fff;
+}
+.login-wrapper{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    position: relative;
+    width:100%;
+    max-width: 380px;
+    padding : 80px 40px 40px;
+    background: rgba(0,0,0,0.7);
+}
+#forgot-pw{
+    display: none;
+}
