@@ -64,7 +64,19 @@ body{
     letter-spacing: 1px;
     margin-bottom: 30px;
     border:none;
-    
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background-color: transparent;
+    color:inherit;
+
+}
+.form .input-group label{
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
 }
 #forgot-pw{
     display: none;
