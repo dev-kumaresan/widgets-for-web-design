@@ -77,6 +77,14 @@ body{
     padding: 10px 0;
     font-size: 1rem;
     pointer-events: none;
+    transition: .3s ease-out;
+}
+.form .input-group input:focus + label
+.form .input-group input:valid + label{
+    transform: translateY(-18px);
+    color:#ff652f;
+    font-size: .8rem;
+
 }
 #forgot-pw{
     display: none;
