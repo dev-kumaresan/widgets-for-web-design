@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="login-wrapper">
-        <form action="" class="form">
+        <form action="" class="form" autocomplete="off">
             <img src="img/gravatar-m.jpg">
             <h2>Login</h2>
             <div class="input-group">
@@ -23,12 +23,11 @@
             <a href="#forgot-pw" class="forgot-pw">Forgot Password?</a>
         </form>
         <div id="forgot-pw">
-                <form action="" class="form">
+                <form action="" class="form" autocomplete="off">
                 <a href="#" class="close">&times;</a>
                 <h2>Reset Password</h2>
                 <div class="input-group">
-                    <input type="email" name="email" id="email" required>
-                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
                 </div>
                 <input type="submit" value="Submit" class="submit-btn">
              </form>
